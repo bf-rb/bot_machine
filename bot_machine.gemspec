@@ -5,8 +5,8 @@ require_relative 'lib/bot_machine/version'
 Gem::Specification.new do |spec|
   spec.name = 'bot_machine'
   spec.version = BotMachine::Version.current
-  spec.authors = ["Alex Merkulov"]
-  spec.email = ["rormercury@gmail.com"]
+  spec.authors = ['Alex Merkulov']
+  spec.email = ['rormercury@gmail.com']
 
   spec.summary = 'Stub gem bot_machine'
   spec.description = 'Stub DESCRIPTION for gem bot_machine'
@@ -24,5 +24,5 @@ Gem::Specification.new do |spec|
   spec.require_paths = ['lib']
 
   # Uncomment to register a new dependency of your gem
-  # spec.add_dependency "example-gem", "~> 1.0"
+  # spec.add_dependency 'example-gem', '~> 1.0'
 end
