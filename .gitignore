@@ -13,3 +13,5 @@
 Gemfile.lock
 
 bot_machine-*.gem
+
+.vscode

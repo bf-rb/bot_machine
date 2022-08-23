@@ -12,7 +12,7 @@ Gem::Specification.new do |spec|
   spec.description = 'Stub DESCRIPTION for gem bot_machine'
   spec.homepage = 'https://github.com/bf-rb/bot_machine'
   spec.license = 'MIT'
-  spec.required_ruby_version = '>= 2.6.0'
+  spec.required_ruby_version = '>= 2.7.0'
 
   spec.metadata['homepage_uri'] = spec.homepage
   spec.metadata['source_code_uri'] = 'https://github.com/bf-rb/bot_machine'
@@ -23,6 +23,5 @@ Gem::Specification.new do |spec|
   spec.executables = ['bot_machine']
   spec.require_paths = ['lib']
 
-  # Uncomment to register a new dependency of your gem
-  # spec.add_dependency 'example-gem', '~> 1.0'
+  spec.add_dependency 'dry-cli', '~> 0.7.0'
 end
