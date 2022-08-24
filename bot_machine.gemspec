@@ -8,15 +8,20 @@ Gem::Specification.new do |spec|
   spec.authors = ['Alex Merkulov']
   spec.email = ['rormercury@gmail.com']
 
-  spec.summary = 'Stub gem bot_machine'
-  spec.description = 'Stub DESCRIPTION for gem bot_machine'
+  spec.summary = 'Create your own simple chatbot.'
+  spec.description = 'BotMachine - an easy way to create your own chatbot using Ruby.'
   spec.homepage = 'https://github.com/bf-rb/bot_machine'
   spec.license = 'MIT'
   spec.required_ruby_version = '>= 2.7.0'
 
-  spec.metadata['homepage_uri'] = spec.homepage
-  spec.metadata['source_code_uri'] = 'https://github.com/bf-rb/bot_machine'
-  spec.metadata['changelog_uri'] = 'https://github.com/bf-rb/bot_machine'
+  spec.metadata = {
+    'homepage_uri' => spec.homepage,
+    'changelog_uri' => 'https://github.com/bf-rb/bot_machine/blob/main/CHANGELOG.md',
+    'source_code_uri' => 'https://github.com/bf-rb/bot_machine',
+    'documentation_uri' => "https://rubydoc.org/gems/bot_machine/#{BotMachine::Version.current}",
+    'bug_tracker_uri' => 'https://github.com/bf-rb/bot_machine/issues',
+    'rubygems_mfa_required' => 'true'
+  }
 
   spec.files = Dir['lib/**/*']
   spec.bindir = 'exe'
